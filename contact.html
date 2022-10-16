@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifolio</title>
+</head>
+<body>
+    <header>
+        <table border="1" width="100%">
+            <tr>
+                <td rowspan="2" width="20%">
+                    <img id="imagemPerfil" src="./img/luiz perfil kenzie.jpeg" alt="" width="80px">
+                </td>
+                <td>
+                    <h1 class="h1_title_padrao">Luiz Carlos de Lima Silva</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3 class="h3_header">
+                        < PHP web developer>
+                    </h3>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <main>
+        <table border="1px" width="80%" align="center">
+            <tr>
+                <td class="header_navegacao"> <a href="index.html"><b>Principal</b></a></td>
+                <td class="header_navegacao"><a href="quemsou.html"><b>Quem Sou </b></a></td>
+                <td class="header_navegacao"><a href="projects.html"><b>Projetos </b></a></td>
+                <td class="header_navegacao"><a href="contact.html"><b><i>Contato</i></b></a></td>
+            </tr>
+        </table>
+        <table border="1" width="80%" align="center">
+            <tr>
+                <td colspan="4">
+                    <h2>Entre em contato!</h2>
+                    <p>Preencha todos os campos do formulario e em ate 48h lhe responderei.</p>
+                    <p>Será um prazer lhe atender!</p>
+                </td>
+            </tr>
+        </table>
+        <table border="1" width="80%" align="center">
+            <form>
+                <tr>
+                    <td colspan="4">
+                        <p>
+                            <label for="slcSevicos">Assunto</label><br>
+                            <select name="servico" id="slcservico">
+                                <option value="BACK">Back-End</option>
+                                <option value="FRONT">Front-End</option>
+                                <option value="BD">MySQL</option>
+                                <option value="WEB">Web Server</option>
+                                <option value="PHP">Criação Sistema em PHP</option>
+                            </select>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <label for="txtNomeCompleto">Nome Completo</label><br>
+                            <input type="text" name="NomeCompleto" id="txtNomeCompleto" placeholder="Nome Completo" required>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <label for="txtEmail">E-mail</label><br>
+                            <input type="text" name="txtEmail" id="txtEmail" placeholder="Digite seu E-mail" required>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <label for="tel">Telefone</label><br>
+                            <input type="text" required placeholder="(99)99999-9999" id="tel" name="tel"> 
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <label for="txtObservacao">Mensagem</label><br>
+                            <textarea name="Observacao" id="txtObservacao" cols="30" rows="10"></textarea>
+                        </p>
+                        <p>
+                            <input type="reset" value="Limpar">
+                            <input type="submit" value="Enviar">
+                        </p>
+                    </td>
+                </tr>
+            </form>
+            <hr>
+            <tr>
+                <td>
+                    <h1>Outras formas de contato</h1>
+                    <ul>
+                        <li>Residente em Vargem Alta /ES</li>
+                        <li><a href="https://outlook.live.com/mail/0/" target="_blank">luizsilvatraders@hotmail.com</a></li>
+                        <li>(27) 00000-9988</li>
+                        <li><a href="https://www.linkedin.com/in/luiz-carlos-de-lima-silva-196857239?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bby76c94KSCKQjaAr7nfMQg%3D%3D" target="_blank">LinkedIn
+                        </a></li>            
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <table border="1" width="100%">
+        <tr align="center">
+            <td>
+                <p> Copyright&copy; 2022</p>
+                <img src="./img/ifes.png" alt="" width="5%">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

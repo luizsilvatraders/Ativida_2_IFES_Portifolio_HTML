@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&family=Roboto:wght@300;700&family=Silkscreen:wght@400;700&display=swap');
+
+main {
+    background-color: bisque;
+    margin: 0;
+}
+header {
+    background-image:linear-gradient(rgb(7, 7, 95) , rgb(49, 31, 31));
+}
+#imagemPerfil {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+.h1_title_padrao {
+    color: white;
+    font-family: sans-serif;
+}
+.h3_header{
+    color: white;
+    font-family: sans-serif;  
+}
+
+pre {
+    font-family: Caveat;
+    font-size: 26px;
+    margin-left: -80px;
+    font-weight: bold;
+    color: white;
+}
+span {
+    font-family: "open sans";
+    font-size: 32px;
+    font-weight: bold;
+    color: yellow;
+}
+.apresentacao  {
+    background-color: darkgray;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.img_apresentacao {
+    background-image: url(./img/pessoa.jpeg);
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
