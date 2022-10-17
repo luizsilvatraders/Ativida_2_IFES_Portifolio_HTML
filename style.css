@@ -7,6 +7,26 @@ main {
 header {
     background-image:linear-gradient(rgb(7, 7, 95) , rgb(49, 31, 31));
 }
+p{
+    font-family: sans-serif;   
+}
+h1{
+    font-family: sans-serif; 
+}
+h2{
+    font-family: sans-serif;
+}
+
+li{
+    font-family: sans-serif;
+    line-height: 35px;
+}
+/* configurar lista*/
+ul{
+ list-style-type: none;
+}
+
+
 #imagemPerfil {
     border-radius: 50%;
     width: 150px;
@@ -28,9 +48,10 @@ header {
 /*botao contrate-me*/
 .botao_oq_vai_encontrar_contrate{
     font-family: sans-serif;
+    margin-left: 20px;
     margin-top: 20px;
-    padding: 16px 8px;
-    width: 206px;
+    padding: 10px 5px;
+    width: 150px;
     color: #FFFFFF;
     border-radius: 8px;
     text-align: center;
@@ -52,6 +73,8 @@ header {
         
 /*links a*/
 a{
+    font-family: Caveat;
+    font-size: 18px;
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -79,7 +102,7 @@ span {
     font-family: "open sans";
     font-size: 32px;
     font-weight: bold;
-    color: yellow;
+    color: #e69e19;
 }
 .apresentacao  {
     background-color: dimgrey;
@@ -93,3 +116,43 @@ span {
     background-repeat: no-repeat;
     border-radius: 15px;
 }
+
+/*projeto global*/
+.projeto_global{
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+/*imagem projetos*/
+.img_project{
+    border-radius: 15px;
+}
+/*botao project formulario*/
+.botao_project{
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 4px;
+    width: 100px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    background-color: #4169E1;
+}
+
+.botao_project:hover{
+    color: #121214;
+    background: #FFFFFF;
+    transition: background 1s;
+    -ms-transform: scale(0.9);
+    transform: scale(1.1);
+}
+.ajuste_mensagem_formulario{
+    margin-left: 20px;
+}
+
+

@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <table border="1" width="100%">
+        <table width="100%">
             <tr>
                 <td rowspan="2" width="20%">
                     <img id="imagemPerfil" src="./img/luiz perfil kenzie.jpeg" alt="" width="80px">
@@ -29,7 +29,7 @@
         </table>
     </header>
     <main>
-        <table border="1px" width="80%" align="center">
+        <table  width="80%" align="center">
             <tr>
                 <td class="header_navegacao"> <a href="index.html"><b>Principal</b></a></td>
                 <td class="header_navegacao"><a href="quemsou.html"><b>Quem Sou </b></a></td>
@@ -37,7 +37,7 @@
                 <td class="header_navegacao"><a href="contact.html"><b><i>Contato</i></b></a></td>
             </tr>
         </table>
-        <table border="1px" width="80%" align="center">
+        <table  width="80%" align="center">
             <tr>
                 <td colspan="4">
                     <h2>Entre em contato!</h2>
@@ -46,11 +46,11 @@
                 </td>
             </tr>
         </table>
-        <table border="1" width="80%" align="center">
+        <table  width="80%" align="center">
             <form>
                 <tr>
                     <td colspan="4">
-                        <p>
+                        <p class="ajuste_mensagem_formulario">
                             <label for="slcSevicos">Assunto</label><br>
                             <select name="servico" id="slcservico">
                                 <option value="BACK">Back-End</option>
@@ -64,15 +64,15 @@
                 </tr>
                 <tr>
                     <td>
-                        <p>
-                            <label for="txtNomeCompleto">Nome Completo</label><br>
+                        <p class="ajuste_mensagem_formulario">
+                            <label  for="txtNomeCompleto">Nome Completo</label><br>
                             <input type="text" name="NomeCompleto" id="txtNomeCompleto" placeholder="Nome Completo" required>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <p>
+                        <p class="ajuste_mensagem_formulario">
                             <label for="txtEmail">E-mail</label><br>
                             <input type="text" name="txtEmail" id="txtEmail" placeholder="Digite seu E-mail" required>
                         </p>
@@ -80,7 +80,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <p>
+                        <p class="ajuste_mensagem_formulario">
                             <label for="tel">Telefone</label><br>
                             <input type="text" required placeholder="(99)99999-9999" id="tel" name="tel"> 
                         </p>
@@ -88,13 +88,13 @@
                 </tr>
                 <tr>
                     <td>
-                        <p>
+                        <p class="ajuste_mensagem_formulario">
                             <label for="txtObservacao">Mensagem</label><br>
                             <textarea name="Observacao" id="txtObservacao" cols="30" rows="10"></textarea>
                         </p>
                         <p>
-                            <input type="reset" value="Limpar">
-                            <input type="submit" value="Enviar">
+                            <input class="botao_project" type="reset" value="Limpar">
+                            <input class="botao_project" type="submit" value="Enviar">
                         </p>
                     </td>
                 </tr>
@@ -113,7 +113,7 @@
             </tr>
         </table>
     </main>
-    <table border="1" width="100%">
+    <table  width="100%">
         <tr align="center">
             <td>
                 <p> Copyright&copy; 2022</p>
